@@ -1,6 +1,5 @@
 import './App.css';
 import React from 'react';
-import { findByLabelText } from '@testing-library/dom';
 
 const keys = ['q', 'w', 'e', 'a', 's', 'd', 'z', 'x', 'c'];
 const colors = ['blue', 'orange', 'red', 'purple', 'teal', 'green', 'black', 'brown', 'magenta']
