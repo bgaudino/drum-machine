@@ -1,4 +1,3 @@
-import "./App.css";
 import React from "react";
 import padData, { keys } from "./padData";
 
@@ -24,7 +23,7 @@ const styles = {
     display: "grid",
     justifyContent: "center",
     gridTemplateColumns: "repeat(3, 1fr)",
-    gridTemplateColumns: "repeat(3, 1fr)",
+    gridTemplateRows: "repeat(3, 1fr)",
     gap: "1rem",
     height: 300,
   },
