@@ -1,38 +1,17 @@
 body {
+  padding: 0;
   margin: 0;
-  font-family: 'Press Start 2P', monospace;
-  background-color: #3d0c02;
-  color: white;
+  background-color: #313639;
+  display: grid;
+  place-items: center;
+  min-height: 100vh;
+  width: 100vw;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-button  {
-  font-family: 'Press Start 2P', monospace;
+body,
+button {
+  font-family: "Press Start 2P", monospace;
+  color: #fff;
 }
-
-#display {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 60px;
-  border: 8px inset white;
-  background-color: black;
-  margin-bottom: 12px;
-}
-
-#drum-machine {
-  border: 1px solid white;
-  border-radius: 12px;
-  padding: 20px;
-  background-color: gray;
-}
-
-#root {
-  height: 100vh;
-  width: 100vw;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
